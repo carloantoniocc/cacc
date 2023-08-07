@@ -1,11 +1,11 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: #2A6FA8;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
 .navbar {
-  background-color: #2A6FA8;
   width: auto;
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@ body {
   padding: 15px;
 }
 .navbar p {
-  font-size: 1.8em;
+  font-size: 1.5em;
   padding-left: 30px;
 }
 .navbar .icons {
@@ -28,10 +28,8 @@ body {
 article {
   color: #EEF53D;
   width: auto;
-  height: 500px;
   padding-left: 45px;
   padding-right: 45px;
-  background-color: white;
   display: flex;
   justify-content: space-between;
 }
@@ -39,10 +37,9 @@ article .article-info {
   width: 50%;
   background-color: green;
 }
-article .article-image {
-  width: 50%;
-  background-color: purple;
-}
-article .article-image .img {
+article .img {
   width: 25vw;
-}/*# sourceMappingURL=main.css.map */
+  border-radius: 19px;
+}
+
+/*# sourceMappingURL=main.css.map */

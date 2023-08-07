@@ -10,18 +10,19 @@ $font-stack: 'IBM Plex Sans', sans-serif;
 body {
     margin: 0px;
     padding: 0px;
+    background-color: $terciary-color;
     font-family: $font-stack;
 }
 
 .navbar {
-    background-color: $terciary-color;
+    // background-color: $secondary-color;
     width: auto;
     display: flex;
     justify-content: space-between;
     color: $primary-text-color;
     padding: 15px;
     p{
-        font-size: 1.8em;
+        font-size: 1.5em;
         padding-left: 30px;
     }
     .icons {
@@ -38,10 +39,8 @@ article {
     // color de texto
     color: $primary-text-color;
     width: auto;
-    height: 500px;
     padding-left: 45px;
     padding-right: 45px;
-    background-color: white;
     display: flex;
     justify-content: space-between;
     .article-info {
@@ -49,11 +48,9 @@ article {
         background-color: green;
         
     }
-    .article-image {
-        width: 50%;
-        background-color: purple;
-        .img {
-            width: 25vw;
-        }
-    }
+    .img {
+        width: 25vw;
+        border-radius: 19px;
+     }
+
 }
