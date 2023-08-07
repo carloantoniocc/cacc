@@ -1,0 +1,59 @@
+$primary-color :#56AEF5;
+$secondary-color :#F54D47;
+$terciary-color :#2A6FA8;
+$primary-text-color :#EEF53D;
+$secondary-text-color :#A4A832;
+
+$font-stack: 'IBM Plex Sans', sans-serif;
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: $font-stack;
+}
+
+.navbar {
+    background-color: $terciary-color;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    color: $primary-text-color;
+    padding: 15px;
+    p{
+        font-size: 1.8em;
+        padding-left: 30px;
+    }
+    .icons {
+        display: flex;
+        gap: 15px;
+        button {
+            background-color: transparent;
+            border-style: none;
+        }
+    }
+}
+
+article {
+    // color de texto
+    color: $primary-text-color;
+    width: auto;
+    height: 500px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    .article-info {
+        width: 50%;
+        background-color: green;
+        
+    }
+    .article-image {
+        width: 50%;
+        background-color: purple;
+        .img {
+            width: 25vw;
+        }
+    }
+}
