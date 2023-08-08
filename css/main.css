@@ -6,11 +6,12 @@ body {
 }
 
 .navbar {
+  background-color: #F54D47;
   width: auto;
   display: flex;
   justify-content: space-between;
   color: #EEF53D;
-  padding: 15px;
+  padding: 16px;
 }
 .navbar p {
   font-size: 1.5em;
@@ -33,15 +34,29 @@ article {
   display: flex;
   justify-content: space-between;
 }
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
+}
 article h1 {
   font-size: 3em;
 }
 article p {
   font-size: 1.5em;
 }
-article .img {
-  width: 25vw;
-  border-radius: 19px;
+article button {
+  width: 12vw;
+  padding: 20px;
+  background-color: #F54D47;
+  border-style: none;
+  border-radius: 35px;
+  font-size: 1em;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

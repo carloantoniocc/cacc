@@ -16,12 +16,12 @@ body {
 }
 
 .navbar {
-    // background-color: $secondary-color;
+    background-color: $secondary-color;
     width: auto;
     display: flex;
     justify-content: space-between;
     color: $primary-text-color;
-    padding: 15px;
+    padding: 16px;
     p{
         font-size: $paragraph-size;
         padding-left: 30px;
@@ -37,23 +37,37 @@ body {
 }
 
 article {
-    // color de texto
     width: auto;
     color: $primary-text-color;
     padding-left: 45px;
     padding-right: 45px;
     display: flex;
     justify-content: space-between;
+    .impact-section{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    
+    img {
+        width: 25vw;
+        border-radius: 19px;
+    }
+
     h1 {
         font-size: 3em;
     }
     p {
         font-size: $paragraph-size;
     }
-
-    .img {
-        width: 25vw;
-        border-radius: 19px;
-     }
-
+    button {
+        width: 12vw;
+        padding: 20px;
+        background-color: $secondary-color;
+        border-style: none;
+        border-radius: 35px;
+        font-size: 1em;
+        color: white;
+    }
 }
