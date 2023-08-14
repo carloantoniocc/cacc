@@ -7,6 +7,21 @@ $paragraph-size: 1.5em;
 
 $font-stack: 'IBM Plex Sans', sans-serif;
 
+@mixin flexcenter($direction, $content, $align ) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $align;
+}
+
+@mixin buttonStyle{
+    button{
+        background: none;
+        border-style: none;
+
+    }
+}
+
 
 body {
     margin: 0px;
@@ -29,10 +44,7 @@ body {
     .icons {
         display: flex;
         gap: 15px;
-        button {
-            background-color: transparent;
-            border-style: none;
-        }
+        @include buttonStyle();
     }
 }
 

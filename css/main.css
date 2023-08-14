@@ -22,7 +22,7 @@ body {
   gap: 15px;
 }
 .navbar .icons button {
-  background-color: transparent;
+  background: none;
   border-style: none;
 }
 
